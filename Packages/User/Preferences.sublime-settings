@@ -58,8 +58,6 @@
 		"*.log",
 		"*.json",
 		"*.geojson",
-		"*indicateurs_validation/*/datas/*",
-		"*indicateurs_validation/*/graphjs/*",
 		"*node_modules/**"
 	],
 	"index_files": true,
