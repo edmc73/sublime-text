@@ -1,5 +1,7 @@
 {
 	"always_show_minimap_viewport": true,
+	"auto_complete_commit_on_tab": false,
+	"auto_complete_with_fields": true,
 	"auto_complete_triggers":
 	[
 		{
@@ -7,17 +9,43 @@
 			"selector": "text, source, meta, string, punctuation, constant"
 		}
 	],
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"node_modules/**",
+		"*.tar.gz",
+		"*.7z",
+		"*.dat"
+	],
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 1,
 	"caret_extra_top": 1,
 	"caret_extra_width": 0,
 	"caret_style": "blink",
-	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
+	"dictionary": "Packages/Language - French - Français/fr_FR.dic",
+	"enable_tab_scrolling": true,
 	"fade_fold_buttons": false,
-	"font_size": 8,
+	"folder_no_icon": false,
+	"font_size": 10,
+	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"GitGutter",
+		"Markdown",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -25,18 +53,30 @@
 		"draw_normal",
 		"draw_active"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"index_exclude_patterns":
+	[
+		"*.log",
+		"*.json",
+		"*.geojson",
+		"*indicateurs_validation/*/datas/*",
+		"*indicateurs_validation/*/graphjs/*",
+		"*node_modules/**"
+	],
+	"index_files": true,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"mouse_wheel_switches_tabs": false,
 	"overlay_scroll_bars": "enabled",
 	"show_encoding": true,
 	"show_line_endings": true,
+	"sidebar_row_padding_small": true,
 	"sidebar_size_12": true,
+	"sidebar_size_13": false,
+	"sidebar_size_14": false,
 	"status_bar_brighter": true,
 	"tab_size": 4,
 	"tabs_padding_medium": true,
 	"tabs_small": true,
 	"theme": "Afterglow.sublime-theme",
-	"word_wrap": true,
-	"mouse_wheel_switches_tabs":false,
-	"sidebar_row_padding_small":true,
+	"word_wrap": true
 }
